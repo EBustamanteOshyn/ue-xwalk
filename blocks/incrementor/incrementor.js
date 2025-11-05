@@ -10,9 +10,8 @@ export default function decorate(block) {
   incrementorWrapper.replaceChildren(div);
 
   if (!window.Alpine) {
-    console.warn('Alpine.js is not loaded. Incrementor block will not function properly.');
     return;
-  } else {
-      Alpine.initTree(div);
   }
+  /* global Alpine */
+  Alpine.initTree(div);
 }
