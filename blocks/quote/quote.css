@@ -28,3 +28,7 @@
     width: 30px;
     background-color: darkgray;
 }
+
+.block.quote.bg-blue {
+    background-color: blue;
+}

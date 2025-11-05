@@ -221,16 +221,16 @@
       {
        "component": "richtext",
        "name": "quote",
-       "value": "",
        "label": "Quote",
+       "value": "",
        "valueType": "string"
      },
      {
        "component": "text",
-       "valueType": "string",
        "name": "author",
        "label": "Author",
-       "value": ""
+       "value": "",
+       "valueType": "string"
      },
      {
       "component": "select",
@@ -254,6 +254,18 @@
         }
       ]
       }
+    ]
+  },
+  {
+    "id": "incrementor",
+    "fields": [
+     {
+       "component": "text",
+       "name": "title",
+       "label": "title",
+       "value": "",
+       "valueType": "string"
+     }
     ]
   }
 ]
