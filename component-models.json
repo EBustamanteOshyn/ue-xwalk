@@ -267,5 +267,17 @@
        "valueType": "string"
      }
     ]
+  },
+  {
+    "id": "toDo",
+    "fields": [
+     {
+       "component": "text",
+       "name": "title",
+       "label": "title",
+       "value": "",
+       "valueType": "string"
+     }
+    ]
   }
 ]
