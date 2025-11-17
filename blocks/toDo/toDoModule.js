@@ -7,7 +7,7 @@ function Button({ action, children }) {
   `;
 }
 
-export function Counter() {
+export default function Counter() {
   const [count, setCount] = useState(0);
 
   return html`
