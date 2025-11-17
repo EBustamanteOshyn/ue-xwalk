@@ -1,7 +1,7 @@
-export default function decorate(block) {
-  const [quoteWrapper] = block.children;
+import { render } from 'preact';
+import { html } from 'htm/preact';
+import { Counter } from './toDoModule.js';
 
-  const blockquote = document.createElement('blockquote');
-  blockquote.textContent = quoteWrapper.textContent.trim();
-  quoteWrapper.replaceChildren(blockquote);
+export default function decorate(block) {
+  render(html`<${Counter} />`, block);
 }
