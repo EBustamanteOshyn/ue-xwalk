@@ -216,56 +216,66 @@
     ]
   },
   {
-    "id": "quote",
+    "id": "promo",
     "fields": [
       {
-       "component": "richtext",
-       "name": "quote",
-       "label": "Quote",
-       "value": "",
-       "valueType": "string"
-     },
-     {
-       "component": "text",
-       "name": "author",
-       "label": "Author",
-       "value": "",
-       "valueType": "string"
-     },
-     {
-      "component": "select",
-      "name": "classes",
-      "value": "",
-      "label": "Background Color",
-      "description": "The quote background color",
-      "valueType": "string",
-      "options": [
-        {
-          "name": "Red",
-          "value": "bg-red"
-        },
-        {
-          "name": "Green",
-          "value": "bg-green"
-        },
-        {
-          "name": "Blue",
-          "value": "bg-blue"
-        }
-      ]
+        "component": "text",
+        "valueType": "string",
+        "name": "headline",
+        "label": "Headline",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "copy",
+        "value": "",
+        "label": "Supporting copy",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt text",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "ctaLabel",
+        "label": "CTA label",
+        "value": "Learn more"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "ctaUrl",
+        "label": "CTA URL",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "name": "imagePosition",
+        "label": "Image position",
+        "options": [
+          {
+            "label": "Right",
+            "value": "right"
+          },
+          {
+            "label": "Left",
+            "value": "left"
+          }
+        ],
+        "value": "right"
       }
-    ]
-  },
-  {
-    "id": "incrementor",
-    "fields": [
-     {
-       "component": "text",
-       "name": "title",
-       "label": "title",
-       "value": "",
-       "valueType": "string"
-     }
     ]
   }
 ]
