@@ -216,56 +216,79 @@
     ]
   },
   {
-    "id": "quote",
+    "id": "promo",
     "fields": [
       {
-       "component": "richtext",
-       "name": "quote",
-       "label": "Quote",
-       "value": "",
-       "valueType": "string"
-     },
-     {
-       "component": "text",
-       "name": "author",
-       "label": "Author",
-       "value": "",
-       "valueType": "string"
-     },
-     {
-      "component": "select",
-      "name": "classes",
-      "value": "",
-      "label": "Background Color",
-      "description": "The quote background color",
-      "valueType": "string",
-      "options": [
-        {
-          "name": "Red",
-          "value": "bg-red"
-        },
-        {
-          "name": "Green",
-          "value": "bg-green"
-        },
-        {
-          "name": "Blue",
-          "value": "bg-blue"
-        }
-      ]
+        "component": "text",
+        "name": "headline",
+        "label": "Headline",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "copy",
+        "label": "Supporting copy",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Image Alt",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "name": "imagePosition",
+        "label": "Image position",
+        "options": [
+          {
+            "name": "Left",
+            "value": "left"
+          },
+          {
+            "name": "Right",
+            "value": "right"
+          }
+        ],
+        "value": "left"
+      },
+      {
+        "component": "aem-content",
+        "name": "link",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "name": "linkText",
+        "label": "CTA text",
+        "value": "Learn more"
+      },
+      {
+        "component": "select",
+        "name": "linkType",
+        "label": "CTA style",
+        "options": [
+          {
+            "name": "Primary",
+            "value": "primary"
+          },
+          {
+            "name": "Secondary",
+            "value": "secondary"
+          }
+        ],
+        "value": "primary"
       }
-    ]
-  },
-  {
-    "id": "incrementor",
-    "fields": [
-     {
-       "component": "text",
-       "name": "title",
-       "label": "title",
-       "value": "",
-       "valueType": "string"
-     }
     ]
   }
 ]
