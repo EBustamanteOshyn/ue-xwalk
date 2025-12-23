@@ -240,41 +240,11 @@
         "multi": false
       },
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt text",
-        "value": ""
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "ctaLabel",
-        "label": "CTA label",
-        "value": "Learn more"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "ctaUrl",
-        "label": "CTA URL",
-        "value": ""
-      },
-      {
-        "component": "select",
-        "name": "imagePosition",
-        "label": "Image position",
-        "options": [
-          {
-            "label": "Right",
-            "value": "right"
-          },
-          {
-            "label": "Left",
-            "value": "left"
-          }
-        ],
-        "value": "right"
+        "component": "richtext",
+        "name": "cta",
+        "value": "",
+        "label": "Call to action (use an <a> tag)",
+        "valueType": "string"
       }
     ]
   }
