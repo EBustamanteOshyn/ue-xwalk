@@ -142,6 +142,25 @@
     ]
   },
   {
+    "id": "accordion-item",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "value": "Title",
+        "label": "Title",
+        "valueType": "string"
+      },
+      {
+        "component": "textarea",
+        "name": "text",
+        "value": "Inner Text",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
@@ -211,39 +230,6 @@
         "name": "text",
         "value": "",
         "label": "Text",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "promo",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "headline",
-        "label": "Headline",
-        "value": ""
-      },
-      {
-        "component": "richtext",
-        "name": "copy",
-        "value": "",
-        "label": "Supporting copy",
-        "valueType": "string"
-      },
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
-      },
-      {
-        "component": "richtext",
-        "name": "cta",
-        "value": "",
-        "label": "Call to action (use an <a> tag)",
         "valueType": "string"
       }
     ]
