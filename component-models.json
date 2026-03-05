@@ -154,7 +154,7 @@
       {
         "component": "richtext",
         "name": "text",
-        "value": "",
+        "value": "this is a default text",
         "label": "Text",
         "valueType": "string"
       }
