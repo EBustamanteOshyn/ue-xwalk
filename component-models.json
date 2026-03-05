@@ -145,16 +145,16 @@
     "id": "accordionitem",
     "fields": [
       {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
+        "component": "text",
+        "name": "title",
+        "value": "Title goes here",
+        "label": "Title",
+        "valueType": "string"
       },
       {
-        "component": "richtext",
+        "component": "textarea",
         "name": "text",
-        "value": "this is a default text",
+        "value": "Summary goes here",
         "label": "Text",
         "valueType": "string"
       }
