@@ -4,7 +4,8 @@
  * https://www.hlx.live/developer/block-collection/accordion
  */
 
-export default function decorate(block) {
+export default function decorate() {
+  /*
   [...block.children].forEach((row) => {
     // decorate accordion item label
     const label = row.children[0];
@@ -20,4 +21,5 @@ export default function decorate(block) {
     details.append(summary, body);
     row.replaceWith(details);
   });
+  */
 }
