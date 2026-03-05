@@ -99,14 +99,14 @@
         },
         {
           "title": "Accordion Item",
-          "id": "accordion-item",
+          "id": "accordionitem",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
                   "name": "Accordion Item",
-                  "model": "accordion-item"
+                  "model": "accordionitem"
                 }
               }
             }

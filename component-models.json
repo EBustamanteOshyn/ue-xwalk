@@ -142,7 +142,7 @@
     ]
   },
   {
-    "id": "accordion-item",
+    "id": "accordionitem",
     "fields": [
       {
         "component": "reference",
