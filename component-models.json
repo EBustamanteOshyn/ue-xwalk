@@ -181,12 +181,17 @@
         "description": "The label shown for this section in the Content Tree"
       },
       {
-        "component": "multiselect",
-        "name": "style",
-        "label": "Style",
+        "component": "select",
+        "name": "type",
+        "label": "Type",
+        "valueType": "string",
         "options": [
           {
-            "name": "Blog Body",
+            "name": "Blog Top Section",
+            "value": "blog-top-section"
+          },
+          {
+            "name": "Blog Body Section",
             "value": "blog-body-section"
           },
           {
