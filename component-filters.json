@@ -19,6 +19,20 @@
     ]
   },
   {
+    "id": "blog-section",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title",
+      "blog-hero",
+      "cards",
+      "columns",
+      "fragment",
+      "accordion"
+    ]
+  },
+  {
     "id": "accordion",
     "components": [
       "accordionitem"

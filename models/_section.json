@@ -13,6 +13,20 @@
           }
         }
       }
+    },
+    {
+      "title": "Blog Section",
+      "id": "blog-section",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/section/v1/section",
+            "template": {
+              "model": "blog-section"
+            }
+          }
+        }
+      }
     }
   ],
   "models": [
@@ -37,6 +51,36 @@
           ]
         }
       ]
+    },
+    {
+      "id": "blog-section",
+      "fields": [
+        {
+          "component": "text",
+          "name": "name",
+          "label": "Section Name",
+          "description": "The label shown for this section in the Content Tree"
+        },
+        {
+          "component": "multiselect",
+          "name": "style",
+          "label": "Style",
+          "options": [
+            {
+              "name": "Blog Body",
+              "value": "blog-body-section"
+            },
+            {
+              "name": "FAQ Section",
+              "value": "faq-section"
+            },
+            {
+              "name": "Related Insights Section",
+              "value": "related-insights-section"
+            }
+          ]
+        }
+      ]
     }
   ],
   "filters": [
@@ -51,6 +95,20 @@
         "cards",
         "columns",
         "fragment"
+      ]
+    },
+    {
+      "id": "blog-section",
+      "components": [
+        "text",
+        "image",
+        "button",
+        "title",
+        "blog-hero",
+        "cards",
+        "columns",
+        "fragment",
+        "accordion"
       ]
     }
   ]

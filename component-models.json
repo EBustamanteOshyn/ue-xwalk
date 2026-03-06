@@ -172,6 +172,36 @@
     ]
   },
   {
+    "id": "blog-section",
+    "fields": [
+      {
+        "component": "text",
+        "name": "name",
+        "label": "Section Name",
+        "description": "The label shown for this section in the Content Tree"
+      },
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Blog Body",
+            "value": "blog-body-section"
+          },
+          {
+            "name": "FAQ Section",
+            "value": "faq-section"
+          },
+          {
+            "name": "Related Insights Section",
+            "value": "related-insights-section"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "accordionitem",
     "fields": [
       {
@@ -225,36 +255,6 @@
         "value": "<h1>Blog Title goes here</h1>",
         "label": "Blog Title",
         "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "blog-section",
-    "fields": [
-      {
-        "component": "text",
-        "name": "name",
-        "label": "Section Name",
-        "description": "The label shown for this section in the Content Tree"
-      },
-      {
-        "component": "multiselect",
-        "name": "style",
-        "label": "Style",
-        "options": [
-          {
-            "name": "Blog Body",
-            "value": "blog-body-section"
-          },
-          {
-            "name": "FAQ Section",
-            "value": "faq-section"
-          },
-          {
-            "name": "Related Insights Section",
-            "value": "related-insights-section"
-          }
-        ]
       }
     ]
   },
