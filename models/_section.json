@@ -100,7 +100,9 @@
         "hero",
         "cards",
         "columns",
-        "fragment"
+        "fragment",
+        "blog-hero",
+        "accordion"
       ]
     },
     {
