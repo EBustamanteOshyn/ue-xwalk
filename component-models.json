@@ -22,23 +22,18 @@
         "label": "Keywords"
       },
       {
-        "id": "select",
-        "fields": [
+        "component": "select",
+        "label": "Page Type",
+        "name": "page-type",
+        "valueType": "string",
+        "options": [
           {
-            "component": "select",
-            "label": "Page Type",
-            "name": "pagetype",
-            "valueType": "string",
-            "options": [
-              {
-                "name": "Blog Page",
-                "value": "blog"
-              },
-              {
-                "name": "Option 2",
-                "value": "option2"
-              }
-            ]
+            "name": "Blog Page",
+            "value": "blog"
+          },
+          {
+            "name": "Option 2",
+            "value": "option2"
           }
         ]
       },
@@ -50,7 +45,7 @@
         "condition": {
           "===": [
             {
-              "var": "pagetype"
+              "var": "page-type"
             },
             "blog"
           ]
