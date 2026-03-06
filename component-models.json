@@ -20,6 +20,12 @@
         "name": "keywords",
         "multi": true,
         "label": "Keywords"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "esteban",
+        "label": "Esteban"
       }
     ]
   },
@@ -157,6 +163,74 @@
         "value": "Summary goes here",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "blog-hero",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "aem-tag",
+        "label": "Blog Categories",
+        "name": "categories",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-tag",
+        "label": "Blog Tags",
+        "name": "cq:tags",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "<h1>Blog Title goes here</h1>",
+        "label": "Blog Title",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "blog-section",
+    "fields": [
+      {
+        "component": "text",
+        "name": "name",
+        "label": "Section Name",
+        "description": "The label shown for this section in the Content Tree"
+      },
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Blog Body",
+            "value": "blog-body-section"
+          },
+          {
+            "name": "FAQ Section",
+            "value": "faq-section"
+          },
+          {
+            "name": "Related Insights Section",
+            "value": "related-insights-section"
+          }
+        ]
       }
     ]
   },
