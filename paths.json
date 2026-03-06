@@ -2,7 +2,8 @@
   "mappings": [
     "/content/ue-xwalk/:/",
     "/content/ue-xwalk/configuration:/.helix/config.json",
-    "/content/ue-xwalk/metadata:/metadata.json"
+    "/content/ue-xwalk/metadata:/metadata.json",
+    "/content/ue-xwalk/taxonomy:/taxonomy.json"
   ],
   "includes": [
     "/content/ue-xwalk/"
