@@ -16,9 +16,7 @@
       "hero",
       "cards",
       "columns",
-      "fragment",
-      "blog-hero",
-      "accordion"
+      "fragment"
     ]
   },
   {
@@ -27,6 +25,8 @@
       "text",
       "image",
       "blog-hero",
+      "columns",
+      "fragment",
       "accordion"
     ]
   },
