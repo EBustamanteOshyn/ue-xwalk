@@ -16,7 +16,8 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "mycf"
     ]
   },
   {
@@ -27,7 +28,8 @@
       "blog-hero",
       "columns",
       "fragment",
-      "accordion"
+      "accordion",
+      "mycf"
     ]
   },
   {
