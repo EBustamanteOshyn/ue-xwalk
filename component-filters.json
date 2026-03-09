@@ -26,12 +26,7 @@
     "components": [
       "text",
       "image",
-      "button",
-      "title",
       "blog-hero",
-      "cards",
-      "columns",
-      "fragment",
       "accordion"
     ]
   },
