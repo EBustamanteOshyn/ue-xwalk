@@ -217,21 +217,6 @@
               }
             }
           }
-        },
-        {
-          "title": "My Custom Fragment",
-          "id": "mycf",
-          "plugins": {
-            "xwalk": {
-              "cf": {
-                "name": "mycf",
-                "cfModel": "/conf/oshynclouddemo/settings/dam/cfm/models/testimony",
-                "cfFolder": "/content/dam/oshynsite-headless/demo",
-                "title": "Testimony",
-                "description": "A custom fragment model for testing purposes"
-              }
-            }
-          }
         }
       ]
     }

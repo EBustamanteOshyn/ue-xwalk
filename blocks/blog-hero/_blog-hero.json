@@ -28,16 +28,26 @@
           "multi": false
         },
         {
-          "component": "aem-tag",
-          "label": "Blog Categories",
-          "name": "categories",
-          "valueType": "string"
-        },
-        {
-          "component": "aem-tag",
-          "label": "Blog Tags",
-          "name": "cq:tags",
-          "valueType": "string"
+          "component": "container",
+          "name": "test",
+          "label": "Multi Text",
+          "multi": true,
+          "fields": [
+            {
+              "component": "aem-content-fragment",
+              "name": "cfpath",
+              "label": "Teaser Content Fragment Path",
+              "variationName": "contentFragmentVariation",
+              "validation": {
+                "rootPath": "/content/dam"
+              }
+            },
+            {
+              "component": "text",
+              "name": "contentFragmentVariation",
+              "hidden": true
+            }
+          ]
         },
         {
           "component": "text",
