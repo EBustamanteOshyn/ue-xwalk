@@ -64,6 +64,12 @@
           "description": "The label shown for this section in the Content Tree"
         },
         {
+          "component": "text",
+          "name": "esteban",
+          "label": "Identifier",
+          "description": "Helper field to identify the section in the content tree, not shown to authors"
+        },
+        {
           "component": "select",
           "name": "type",
           "label": "Type",
