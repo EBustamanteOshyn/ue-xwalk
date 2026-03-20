@@ -65,7 +65,7 @@
         },
         {
           "component": "text",
-          "name": "esteban",
+          "name": "type",
           "label": "Identifier",
           "description": "Helper field to identify the section in the content tree, not shown to authors"
         },
